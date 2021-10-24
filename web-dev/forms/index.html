@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="logo">
+                <img src="/img/" alt="">
+            </div>
+
+            <div class="image"></div>
+
+            <div class="text">
+                Star for free & get <br/>
+                attractive offer today!
+            </div>
+        </div>
+        <form id="form" action="">
+            <div class="social">
+                <div class="title">Get Started</div>
+                <div class="question">
+                    Alread Have an Account? <br/>
+                    <span>Sign In</span>
+                </div>
+                <div class="btn">
+                    <div class="btn-1">
+                        <img src="/img/google-logo.png" alt="google-logo">
+                        Sign Up
+                    </div>
+                    <div class="btn-2">
+                        <img src="/img/facebook-new.png" alt="google-logo"/>
+                        Sign Up
+                    </div>
+                </div>
+                <div class="or"></div>
+            </div>
+            <div>
+                <label for="username">
+                    User name
+                </label>
+                <i class="fas fa-user"></i>
+                <input 
+                    type="text"
+                    name="username"
+                    id="username"
+                    placeholder="Enter your name"
+                />
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <i class="far fa-envelope"></i>
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" id="password" placeholder="Enter your passoword">
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>       
+            <button id="btn" type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="/js/index.js"></script>
+</body>
+</html>
